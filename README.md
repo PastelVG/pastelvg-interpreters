@@ -19,18 +19,17 @@ It includes tools to:
 
 ## 🚀 Quick Start
 
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/pastelvg/pastelvg-interpreters.git
+# Clone the repo
+git clone https://github.com/PastelVG/pastelvg-interpreters.git
 cd pastelvg-interpreters
-```
 
-###2. Convert an SVG to PastelVG
-python cli/pastelvg.py examples/sample.svg --to-pastelvg --output out.json
+# Run the CLI
+python pastelvg_cli.py test.svg --to-pastelvg
 
-###3. Convert back to SVG (optional)
-python cli/pastelvg.py out.json --to-svg --output roundtrip.svg
+# Or output to a file
+python pastelvg_cli.py test.svg --to-pastelvg -o out.pvg.json
+
+
 
 ### Project Structure
 pastelvg/
