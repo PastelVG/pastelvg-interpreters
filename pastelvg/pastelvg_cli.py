@@ -3,7 +3,7 @@
 import sys
 import argparse
 import json
-from pastelvg import SVGDocument
+from pastelvg_interpreter import SVGDocument
 
 
 def main():
