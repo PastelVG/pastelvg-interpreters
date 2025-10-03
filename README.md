@@ -1,4 +1,4 @@
-# PastelVG Interpreters
+# PastelVG Interpreters (for v 1.0 SVG only ) 
 
 > Python-based tools for working with the [PastelVG](https://www.pastelvg.com) vector graphics format.
 
